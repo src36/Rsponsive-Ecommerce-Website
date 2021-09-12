@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -272,25 +275,7 @@ ul{
     display: none;
 }
 
-/* media query for menu for responsive design */
-@media only screen and (max-width:800px) {
-    nav ul{
-        position: absolute;
-        top: 70px;
-        left: 0;
-        width: 100%;
-    }
-    nav ul li{
-        display: block;
-        margin-right: 50px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    .menu-icon{
-        display: block;
-        cursor: pointer;
-    }
-}
+
 
 
 
@@ -489,6 +474,26 @@ form a{
     height: 3px;
     margin-top: 8px;
     transform: translateX(100px);
+}
+
+/* media query for menu for responsive design */
+@media only screen and (max-width:800px) {
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
 }
 
 /* media query for less than 600 screen size */

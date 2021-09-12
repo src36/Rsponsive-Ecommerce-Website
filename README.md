@@ -24,7 +24,7 @@ E-commerce brings convenience for customers as they do not have to leave home an
 * In Account section there is Login and Registration form.
 * In we click on Cart icon there is products along with there quantity and price. There is also subtotal and total price.
 * User reviews along with there ratings.
-* Different Brand logos with Grascale effect.
+* Different Brand logos with Grayscale effect.
 * There is Hidden Menu icon visible in small screen size.
 * A nice Footer with Download option , Useful Links and Social media links.
 
